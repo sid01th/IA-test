@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat com Generative AI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    #chat-box {
+      border: 1px solid #ddd;
+      padding: 10px;
+      height: 300px;
+      overflow-y: auto;
+      margin-bottom: 10px;
+    }
+    #chat-box div {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Chat com Generative AI</h1>
+  <div id="chat-box"></div>
+  <input type="text" id="user-input" placeholder="Digite sua mensagem..." style="width: 80%;" />
+  <button onclick="sendMessage()">Enviar</button>
+
+  <script src="app.js"></script> <!-- Chama o app.js -->
+</body>
+</html>
